@@ -1,6 +1,6 @@
 site_name: EGR 304 Hannah Ross Data Sheet
-site_url: https://embedded-systems-design.github.io/EGR304DataSheetTemplate
-repo_url: https://github.com/embedded-systems-design/EGR304DataSheetTemplate
+site_url: https://hross9.github.io/hross9_EGR304_F26/
+repo_url: https://github.com/hross9/hross9_EGR304_F26
 edit_uri: edit/main/docs/
 theme:
   name: material
