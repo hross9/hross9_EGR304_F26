@@ -1,4 +1,4 @@
-site_name: EGR 304 Data Sheet Template
+site_name: EGR 304 Hannah Ross Data Sheet
 site_url: https://embedded-systems-design.github.io/EGR304DataSheetTemplate
 repo_url: https://github.com/embedded-systems-design/EGR304DataSheetTemplate
 edit_uri: edit/main/docs/
@@ -6,10 +6,10 @@ theme:
   name: material
   custom_dir: custom_theme/
   palette:
-    primary: blue
-    accent: indigo
+    primary: purple
+    accent: blue
   font:
-    text: Roboto
+    text: Times New Roman
   logo: static/logo304.svg
   favicon: static/logo304.png
 
