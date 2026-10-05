@@ -11,5 +11,5 @@ The block diagram shows the initial subsection of the drowsy driver device. This
 ## Block Diagram 
 
 
+<img width="843" height="768" alt="0b070f5b-2258-4af9-ae97-e10f9239da67" src="https://github.com/user-attachments/assets/4d58a424-e8ed-4a16-ba06-81ae862b7f70" />
 
-<img width="843" height="768" alt="e2b48e37-92af-469d-ac9c-f88ae70f4a4a" src="https://github.com/user-attachments/assets/0f1767e3-f564-427a-b0c8-7f0e8844dfa6" />
