@@ -26,7 +26,7 @@
 
     
       
-        <title>Component Selection Example - EGR 304 Hannah Ross Data Sheet</title>
+        <title>Component Selection - EGR 304 Hannah Ross Data Sheet</title>
       
     
     
@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#examples" class="md-skip">
+        <a href="#photoresistor" class="md-skip">
           Skip to content
         </a>
       
@@ -125,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Component Selection Example
+              Component Selection
             
           </span>
         </div>
@@ -517,7 +517,7 @@
           
   
   <span class="md-ellipsis">
-    Component Selection Example
+    Component Selection
   </span>
   
 
@@ -528,7 +528,7 @@
         
   
   <span class="md-ellipsis">
-    Component Selection Example
+    Component Selection
   </span>
   
 
@@ -548,35 +548,29 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#photoresistor" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Examples">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#style-1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Style 1
+      Photoresistor
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#style-2" class="md-nav__link">
+      
+        <li class="md-nav__item">
+  <a href="#op-amp" class="md-nav__link">
     <span class="md-ellipsis">
-      Style 2
+      Op Amp
     </span>
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#5v-power-supply" class="md-nav__link">
+    <span class="md-ellipsis">
+      5V Power Supply
+    </span>
+  </a>
   
 </li>
       
@@ -815,35 +809,29 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#photoresistor" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Examples">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#style-1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Style 1
+      Photoresistor
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#style-2" class="md-nav__link">
+      
+        <li class="md-nav__item">
+  <a href="#op-amp" class="md-nav__link">
     <span class="md-ellipsis">
-      Style 2
+      Op Amp
     </span>
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#5v-power-supply" class="md-nav__link">
+    <span class="md-ellipsis">
+      5V Power Supply
+    </span>
+  </a>
   
 </li>
       
@@ -870,107 +858,107 @@
   
 
 
-  <h1>Component Selection Example</h1>
+  <h1>Component Selection</h1>
 
-<h2 id="examples">Examples</h2>
-<h3 id="style-1">Style 1</h3>
-<blockquote>
-<p>This is the example found in the assignment, uses more html</p>
-</blockquote>
-<p><em>Table 1: Example component selection</em></p>
-<p><strong>External Clock Module</strong></p>
+<h3 id="photoresistor">Photoresistor</h3>
 <table>
 <thead>
 <tr>
-<th><strong>Solution</strong></th>
+<th><strong>Component</strong></th>
+<th><strong>Image</strong></th>
 <th><strong>Pros</strong></th>
 <th><strong>Cons</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image1.png" data-desc-position="bottom"><img alt="" src="../image1.png"></a><br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br><a href="http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366">link to product</a></td>
-<td>* Inexpensive[^1]<br>* Compatible with PSoC<br>* Meets surface mount constraint of project</td>
-<td>* Requires external components and support circuitry for interface<br>* Needs special PCB layout.</td>
+<td><a href="https://cdn.sparkfun.com/datasheets/Sensors/LightImaging/SEN-09088.pdf">GL5528</a></td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/57ecbba7-d877-46f4-a6b3-2bb05f8d1de8" data-desc-position="bottom"><img width="227" height="202" alt="image" src="https://github.com/user-attachments/assets/57ecbba7-d877-46f4-a6b3-2bb05f8d1de8"></a></td>
+<td>* Verified to work <br> * Average values for maximum voltage and gamma value <br></td>
+<td>* Least detailed datasheet <br> * Lowest spectral response peak (540nm)</td>
 </tr>
 <tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image3.png" data-desc-position="bottom"><img alt="" src="../image3.png"></a><br>* Option 2. <br>* CTX936TR-ND surface mount oscillator <br>* $1/each <br>* <a href="http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940">Link to product</a></td>
-<td>* Outputs a square wave <br>* Stable over operating temperature <br> * Direct interface with PSoC (no external circuitry required) range</td>
-<td>* More expensive <br>* Slow shipping speed</td>
+<td><a href="https://www.lasercomponents.com/fileadmin/user_upload/home/Datasheets/apx/ldr-cds/nsl-06-062s-photoresistor.pdf">NSL-06-062(S)</a></td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/378d53b5-c412-41a3-8449-c78ec5857c7e" data-desc-position="bottom"><img width="202" height="202" alt="image" src="https://github.com/user-attachments/assets/378d53b5-c412-41a3-8449-c78ec5857c7e"></a></td>
+<td>* Highest gamma value at 10-100lux (0.8) <br> * Highest spectral response peak (550nm)</td>
+<td>* Not epoxy coated <br> * Lowest maximum voltage (100V)</td>
+</tr>
+<tr>
+<td><a href="https://www.futurlec.com/Datasheet/PHOTOCELL20-24.pdf">GL205</a></td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/8b935e8f-f82c-49a1-bc6f-38ddd8e6720f" data-desc-position="bottom"><img width="202" height="202" alt="Image_Name_ALT_Text_7mm-ldr-photo-cell-gl20528-front" src="https://github.com/user-attachments/assets/8b935e8f-f82c-49a1-bc6f-38ddd8e6720f"></a></td>
+<td>* Highest maximum voltage (500V) <br> * Most extensive datasheet</td>
+<td>* Lowest gamma value at 10-100lux (0.6) <br> * Only orderable in bulk</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
-<p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.</p>
-<h3 id="style-2">Style 2</h3>
-<blockquote>
-<p>Also acceptable, more markdown friendly</p>
-</blockquote>
-<p><strong>External Clock Module</strong></p>
-<ol>
-<li>
-<p>XC1259TR-ND surface mount crystal</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image1.png" data-desc-position="bottom"><img alt="" src="../image1.png"></a></p>
-<ul>
-<li>$1/each</li>
-<li><a href="http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366">link to product</a></li>
-</ul>
+<p>Decision: <a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/161/7244927?gclsrc=aw.ds&amp;gad_source=4&amp;gad_campaignid=20232005509&amp;gbraid=0AAAAADrbLlghrPyvXLrPg3m3T1wVtLSSQ&amp;gclid=Cj0KCQjwlsfWBhD4ARIsACL7p1Gs1Re1WjRknGEnYR6AcgBT01ohwsJThIAH7qotEncfS8NFPYIH8XIaAulUEALw_wcB">GL5528 Photoresistor</a></p>
+<p>Rationale: This photoresistor is the most commonly used model in Arduino kits because its values are average across the board. While it doesn't have the highest maximum voltage, the design of the subsystem won't need it to exceed 100V. The higher gamma value of NSL-06-062 be a benefit, but the higher sensitivity could lead to issues with detecting the street lights at night.</p>
+<h3 id="op-amp">Op Amp</h3>
 <table>
 <thead>
 <tr>
-<th>Pros</th>
-<th>Cons</th>
+<th><strong>Component</strong></th>
+<th><strong>Image</strong></th>
+<th><strong>Pros</strong></th>
+<th><strong>Cons</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Inexpensive</td>
-<td>Requires external components and support circuitry for interface</td>
+<td><a href="https://www.ti.com/lit/ds/symlink/lm741.pdf?ts=1792133297459&amp;ref_url=https%253A%252F%252Fwww.google.com%252F">LM741</a></td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/f2b68d05-8037-48b6-872b-26caf2586b15" data-desc-position="bottom"><img width="202" height="203" alt="images" src="https://github.com/user-attachments/assets/f2b68d05-8037-48b6-872b-26caf2586b15"></a></td>
+<td>* Highest maximum voltage (22V) <br> * High supply current (1.7mA)</td>
+<td>* Least amount of pins <br> * Slow speed (0.3μs)</td>
 </tr>
 <tr>
-<td>Compatible with PSoC</td>
-<td>Needs special PCB layout.</td>
+<td><a href="https://www.mouser.lt/datasheet/2/405/1/opa2131-3378433.pdf?srsltid=AU7gw4VSwDB3jjYmfcTxapQW_-RNcMZ_ASecxWgroQk72N-GseNanAb_">OPA4131</a></td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/511864fc-f093-40d1-a6e5-966b7064e205" data-desc-position="bottom"><img width="202" height="150" alt="images" src="https://github.com/user-attachments/assets/511864fc-f093-40d1-a6e5-966b7064e205"></a></td>
+<td>* Most amount of pins (tied) <br> * High bandwidth (4MHz)</td>
+<td>* Unknown supply current rating</td>
 </tr>
 <tr>
-<td>Meets surface mount constraint of project</td>
-<td></td>
+<td><a href="https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf">MCP6004</a></td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/1b9286c2-ef9e-4cf6-b0fb-b4737dfb0bf0" data-desc-position="bottom"><img width="202" height="150" alt="images" src="https://github.com/user-attachments/assets/1b9286c2-ef9e-4cf6-b0fb-b4737dfb0bf0"></a></td>
+<td>* Most amount of pins (tied) <br> * Rail to rail capability <br> * Very low power drain (100μA)</td>
+<td>* Lowest maximum voltage (7V) <br> * Low speed (0.6μs)</td>
 </tr>
 </tbody>
 </table>
-</li>
-<li>
-<p>CTX936TR-ND surface mount oscillator</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image3.png" data-desc-position="bottom"><img alt="" src="../image3.png"></a></p>
-<ul>
-<li>$1/each</li>
-<li><a href="http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940">Link to product</a></li>
-</ul>
+<p>Decision: <a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-E-P/683200?gclsrc=aw.ds&amp;gad_source=4&amp;gad_campaignid=20790518593&amp;gbraid=0AAAAADrbLlj9e9v2l5ZoXiQXj-mZfwT04&amp;gclid=Cj0KCQjwlsfWBhD4ARIsACL7p1FRRpYYM2vDoTMOlRBfY9U3C-MRHVG29ICceAqWETGvv6DikcfNfpgaAtHeEALw_wcB">MCP6004 Op Amp</a></p>
+<p>Rationale: This Op Amp is the most powerful of the three with the rail-to-rail capabilities and low power drain. It has enough pins to work for the subsystem without adding extra pins like the OPA4131. Can operate on voltages as low as 1.8V, which is within the calculated range for this subsystem.</p>
+<h3 id="5v-power-supply">5V Power Supply</h3>
 <table>
 <thead>
 <tr>
-<th>Pros</th>
-<th>Cons</th>
+<th><strong>Component</strong></th>
+<th><strong>Image</strong></th>
+<th><strong>Pros</strong></th>
+<th><strong>Cons</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Outputs a square wave</td>
-<td>More expensive</td>
+<td><a href="https://www.keysight.com/us/en/product/E36155A/800w-autoranging-power-supply-60v-40a.html">E36155A</a></td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/358d89a0-a2e7-4c63-ada9-3a1f08d573ed" data-desc-position="bottom"><img width="202" height="100" alt="image" src="https://github.com/user-attachments/assets/358d89a0-a2e7-4c63-ada9-3a1f08d573ed"></a></td>
+<td>* Highest power capabilities (60V) <br></td>
+<td>* Big and clunky <br> * Must be plugged in</td>
 </tr>
 <tr>
-<td>Stable over operating temperature</td>
-<td>Slow shipping speed</td>
+<td><a href="https://assets.tripplite.com/product-pdfs/en/u280c0263w1b.pdf">U280-C02-63W-1B</a></td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/7c32d835-872f-4b74-b5c4-a0900a7f2426" data-desc-position="bottom"><img width="202" height="202" alt="image" src="https://github.com/user-attachments/assets/7c32d835-872f-4b74-b5c4-a0900a7f2426"></a></td>
+<td>* Uses power from car <br> * Built-in overload protection</td>
+<td>* Wires can get in the way <br> * Requires external wires to use</td>
 </tr>
 <tr>
-<td>Direct interface with PSoC (no external circuitry required) range</td>
-<td></td>
+<td><a href="https://www.ti.com/lit/ds/symlink/tps61023.pdf?ts=1792177626548&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS61023%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dapp-null-null-GPN_EN-cpc-pf-google-ww_en_cons%2526utm_content%253DTPS61023%2526ds_k%253DTPS61023%2526DCM%253Dyes%2526gclsrc%253Daw.ds%2526gad_source%253D1%2526gad_campaignid%253D1767856010%2526gbraid%253D0AAAAAC068F0oyaqHJ2Oh4uIsZP741-gBE%2526gclid%253DCj0KCQjwlsfWBhD4ARIsACL7p1EdeMPRx9YUAtUirNsVwpmqgCDs45rXC0VRQaZiPj_Cubm2MSSXyg8aAh6kEALw_wcB">TPS61023</a></td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/e180acb4-4f9c-4816-a62e-cac7578fd662" data-desc-position="bottom"><img width="202" height="180" alt="image" src="https://github.com/user-attachments/assets/e180acb4-4f9c-4816-a62e-cac7578fd662"></a></td>
+<td>* Most portable option <br> * Attached to subsystem <br> * Smallest option</td>
+<td>* Requires small battery <br> * Variable max output</td>
 </tr>
 </tbody>
 </table>
-</li>
-</ol>
-<p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
-<p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.</p>
+<p>Decision: <a href="https://www.ti.com/product/TPS61023?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=app-null-null-GPN_EN-cpc-pf-google-ww_en_cons&amp;utm_content=TPS61023&amp;ds_k=TPS61023&amp;DCM=yes&amp;gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=1767856010&amp;gbraid=0AAAAAC068F0oyaqHJ2Oh4uIsZP741-gBE&amp;gclid=Cj0KCQjwlsfWBhD4ARIsACL7p1EdeMPRx9YUAtUirNsVwpmqgCDs45rXC0VRQaZiPj_Cubm2MSSXyg8aAh6kEALw_wcB">TPS61023</a></p>
+<p>Rationale: This is the smallest and lightest option that doesn't require the user to need wires. It can be used with a removeable battery for easy switching for the driver. It's also the most portable option, allowing the user to use the device outside of their car, if necessary.</p>
 
 
 
