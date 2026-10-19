@@ -4,13 +4,13 @@ title: Schematic
 
 ## Overview
 
-This schematic is design to support .... (highlight functionally, power, and controller).
+This schematic is design to support a photoresistor to send an analog input along the system. There are two debugging LEDs and a debugging switch. The system outputs an analog signal and can receive a digital signal from the system.
 
 
-![schematic](Screenshot.png){style width:"350" height:"300;"}
-**Figure ##:** Showing a example schematic.
+<img width="1242" height="865" alt="image" src="https://github.com/user-attachments/assets/ea87ba71-62e9-43a2-aacc-47a69bcf1b16" />
+**Figure 1:** Showing the subsystem schematic.
 
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](ExampleSchematic.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
+The schematic as a PDF download is available [*here*](), and the Zip folder of the project [*here*]().
