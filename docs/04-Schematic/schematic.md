@@ -13,4 +13,4 @@ This schematic is design to support a photoresistor to send an analog input alon
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](), and the Zip folder of the project [*here*]().
+The schematic as a PDF download is available [*here*](PIC_HR.pdf), and the Zip folder of the project [*here*](subsystem_HR.zip).
