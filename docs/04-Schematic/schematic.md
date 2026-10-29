@@ -16,4 +16,4 @@ Figure 1: Showing a subsystem schematic.
 
 ## Resources
 
-The schematic as a PDF download is available [here](), and the Zip folder of the project [*here*]().
+The schematic as a PDF download is available [here](https://github.com/user-attachments/files/34146145/PIC_HR.pdf), and the Zip folder of the project [*here*](https://github.com/user-attachments/files/34146205/subsystem_HR.zip).
