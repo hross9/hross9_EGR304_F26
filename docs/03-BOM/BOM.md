@@ -2,7 +2,8 @@
 The finalized Bill of Materials takes the current supply of parts into account. 
 
 ## Bill of Materials
-<img width="1401" height="450" alt="Screenshot 2026-10-29 113040" src="https://github.com/user-attachments/assets/4dd8a08c-0bb5-4252-9d92-83c9891f2f16" />
+<img width="1817" height="490" alt="image" src="https://github.com/user-attachments/assets/36a0d7a2-e889-439f-9de4-740a85f1e5cd" />
+
 
 **Figure 1:** Bill of Materials as a screenshot.
 
